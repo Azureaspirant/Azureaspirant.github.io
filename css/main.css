@@ -1,0 +1,133 @@
+:root {
+  --main-color: #a8d0e6; /* 淡蓝色 */
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: var(--main-color);
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+article {
+  background: #fff;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 5px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: var(--main-color);
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: var(--main-color);
+  padding: 1em;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+}
+nav {
+  background-color: var(--main-color);
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+  font-size: 1.2em; /* 增加字体大小 */
+}
+
+nav a i {
+  margin-right: 0.3em; /* 图标和文字的间距 */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 0 1em;
+  }
+
+  article {
+    margin: 1em auto;
+    padding: 1.5em;
+  }
+
+  nav {
+    padding: 0.5em;
+  }
+
+  nav a {
+    margin: 0 0.5em;
+    font-size: 1em;
+  }
+}
+footer div {
+  margin-top: 1em;
+}
+
+footer div a {
+  color: #fff;
+  margin: 0 0.5em;
+  font-size: 1.5em;
+}
+
+footer div a:hover {
+  color: #ddd;
+}
+#search {
+  padding: 0.5em;
+  margin: 0.5em 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+#search-result {
+  list-style: none;
+  padding: 0;
+}
+
+#search-result li {
+  background: #fff;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+#search-result li a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+#search-result li a:hover {
+  text-decoration: underline;
+}
