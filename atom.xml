@@ -3,11 +3,11 @@
   <title>Azureaspirant的博客</title>
   
   <subtitle>欢迎来到我的世界</subtitle>
-  <link href="https://github.com/Azureaspirant/atom.xml" rel="self"/>
+  <link href="https://azureaspirant.github.io/atom.xml" rel="self"/>
   
-  <link href="https://github.com/Azureaspirant/"/>
+  <link href="https://azureaspirant.github.io/"/>
   <updated>2024-06-04T03:33:26.849Z</updated>
-  <id>https://github.com/Azureaspirant/</id>
+  <id>https://azureaspirant.github.io/</id>
   
   <author>
     <name>Azureaspirant</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/Azureaspirant/2024/06/04/hello-world/"/>
-    <id>https://github.com/Azureaspirant/2024/06/04/hello-world/</id>
+    <link href="https://azureaspirant.github.io/2024/06/04/hello-world/"/>
+    <id>https://azureaspirant.github.io/2024/06/04/hello-world/</id>
     <published>2024-06-04T03:33:26.849Z</published>
     <updated>2024-06-04T03:33:26.849Z</updated>
     
