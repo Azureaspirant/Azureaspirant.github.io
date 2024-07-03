@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3c0;
+}
+
+.container {
+  display: flex;
+  background-color: #f0f0f0;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  min-width: 20%;
+}
+
+.container .content {
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff;
+  margin: 30px;
+}
+
+.container .content:hover {
+  transform: translateY(-5px);
+}
+
+.container .content article h2 {
+  text-align: center;
+}
+
+.container .content article h2 a {
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.container .content article h3 {
+  text-align: center;
+}
+
+.container .content article h3 a {
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.container .content article p {
+  text-align: center;
+  padding: 30px;
+}
+
+.post-content {
+  line-height: 1.6;
+}
+
+.post-content p {
+  margin-bottom: 1em;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.post-content ul,
+.post-content ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.post-content blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 4px solid #ddd;
+  color: #666;
+}
+
+.content-wrapper main{
+  display: flex;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+header,
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  color: #f0f0f0;
+  padding: 10px;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+main {
+  flex: 3;
+  padding: 20px;
+}
+
+/* 媒体查询，视口宽度小于 1200px 时 */
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding-left: 5%;
+    /* 调整左右边距 */
+    padding-right: 5%;
+  }
+
+  .container .content {
+    width: 70%;
+    margin: 5%;
+  }
+}
