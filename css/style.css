@@ -129,20 +129,58 @@ nav ul li a:hover {
 
 main {
   flex: 3;
-  padding: 20px;
+  padding: 5%;
 }
 
 /* 媒体查询，视口宽度小于 1200px 时 */
-@media (max-width: 1200px) {
-  .container {
-    width: 100%;
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
     padding-left: 5%;
-    /* 调整左右边距 */
+    padding-right: 5%;
+    min-width: 80%;
+  }
+  
+  main {
+    flex: 3;
+  }
+  
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: column;
+    padding-left: 5%;
     padding-right: 5%;
   }
-
-  .container .content {
-    width: 70%;
-    margin: 5%;
+}
+@media (max-width: 767px) {
+  .content-wrapper {
+    
+    width: 80%;
+  }
+  main{
+    padding: 2%;
+  }
+  article{
+    padding: 3%;
+    margin: 3%;
+    min-width: 20%;
+  }
+  h1{
+    padding: 3%;
+  }
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 80%;
+  }
+  nav ul {
+    flex-direction: column;
   }
 }
