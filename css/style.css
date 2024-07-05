@@ -22,6 +22,8 @@ body {
   padding-bottom: 60px;
   background-color: #fff;
   margin: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .container .content:hover {
@@ -139,6 +141,7 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     min-width: 80%;
+    align-content: center;
   }
   
   main {
@@ -157,6 +160,7 @@ main {
     flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
+    align-content: center;
   }
 }
 @media (max-width: 767px) {
